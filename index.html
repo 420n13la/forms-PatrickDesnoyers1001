@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<form>
+<fieldset>
+<legend>Registration</legend>
+Username<input type="text" name="username" id="username">
+Status<select>
+<option>Student</option>
+<option>Teacher</option>
+</select>
+E-mail:<input type="email" name="email" id="email"><br>
+Phone<input type="tel" name="phone" id="phone">
+Website<input type="url" name="website" id="website">
+About<textarea></textarea>
+Cities you've visited<select>
+<option>London</option>
+<option>Montreal</option>
+<option>New York</option>
+<option>Paris</option>
+</select>
+Password<input type="password" name="password" id="password">
+Confirm password<input type="password" name="confirm" id="confirm">
+<input type="submit" name="register">
+<input type="reset" name="reset">
+</fieldset>
+
+<fieldset>
+<legend>Search the site</legend>
+<input type="search" id="site-search" name="q" aria-label="Search through site content">
+<button>Search</button>
+</fieldset>
+
+<fieldset>
+<legend>Options</legend>
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice"/>
+<datalist>
+<option value="Chocolate">
+<option value="Coconut">
+<option value="Mint">
+<option value="Strawberry">
+<option value="Vanilla">
+</datalist>
+</fieldset>
+
+<fieldset>
+<legend>Sex</legend>
+<input type="radio" id="male" name="choice">Male</br>
+<input type="radio" id="female" name="choice">Female
+</fieldset>
+
+<fieldset>
+<legend>Languages</legend>
+<input type="checkbox" id="english" name="wow">I speak english</br>
+<input type="checkbox" id="french" name="wow">I speak french</br>
+<input type="checkbox" id="spanish" name="wow">I speak spanish</br>
+</fieldset>
+
+<fieldset>
+File:<input type="file" id="file" name="file"></br>
+<input type="image" name="button" id="button" src="upload.png">
+</fieldset>
+
+</form>
+</body>
+
+</html>
